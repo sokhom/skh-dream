@@ -1,5 +1,5 @@
 {
-  "name": "silhouette-play-react-seed",
+  "name": "skh-dream",
   "version": "4.0.0",
   "description": "Silhouette Play React Seed Template",
   "license": "MIT",
@@ -33,6 +33,8 @@
   "dependencies": {
     "@lingui/core": "^2.2.0",
     "@lingui/react": "^2.2.0",
+    "ajv": "^6.0.0",
+    "ajv-keywords": "^3.2.0",
     "flux-standard-action": "^2.0.3",
     "history": "^4.7.2",
     "intl": "^1.2.5",
@@ -96,7 +98,7 @@
     "fetch-mock": "^6.5.0",
     "flow-bin": "^0.76.0",
     "flow-typed": "^2.5.1",
-    "karma": "^2.0.4",
+    "karma": "^3.1.4",
     "karma-sourcemap-loader": "^0.3.7",
     "less": "^3.7.1",
     "less-loader": "^4.1.0",

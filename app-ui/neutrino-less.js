@@ -14,7 +14,7 @@ module.exports = (neutrino) => {
   // - css-loader not to duplicate minimization
   // - sass-loader not generate source maps
   const cssOptions = { minimize: true,modules: true,importLoaders: 1};
-  const lessOptions = { sourceMap: true
+  const lessOptions = { sourceMap: false
                         ,modules: true
                         ,javascriptEnabled:true
                         ,strictMath: false
